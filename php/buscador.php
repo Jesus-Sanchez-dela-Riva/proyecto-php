@@ -7,7 +7,7 @@
 
         $modulos_url=[
             "usuario"=>"user_search",
-            "categorias"=>"category_search",
+            "categoria"=>"category_search",
             "producto"=>"product_search"
         ];
 
