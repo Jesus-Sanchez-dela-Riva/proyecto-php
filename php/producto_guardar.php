@@ -94,7 +94,7 @@
     #Verificando categoria
     $check_categoria=conexion();
     $check_categoria=$check_categoria->query("SELECT categoria_id FROM categoria WHERE categoria_id='$categoria'");
-    if($check_categoria->rowCount()<0){
+    if($check_categoria->rowCount()<=0){
         echo '
             <div class="notification is-danger is-light">
                 <strong>¡Ocurrio un error inesperado!</strong><br>
